@@ -30,6 +30,9 @@ export const Header = async ({
       </div>
       <div className="grow">&nbsp;</div>
       <div className="flex flex-row items-center gap-3">
+        <button className="text-slate-800 font-semibold px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+          Login
+        </button>
         <div>
           <div className="text-right font-semibold text-zinc-600">
             {user.name}
